@@ -4,7 +4,7 @@ import HeroSection from "./HeroSection";
 
 function App() {
   return (
-    <div>
+    <div className={styles.background}>
       <div className={styles.container}>
         <Header />
         <HeroSection />
