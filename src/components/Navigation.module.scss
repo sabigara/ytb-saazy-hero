@@ -1,0 +1,13 @@
+.list {
+  display: flex;
+  align-items: center;
+  column-gap: 1.25rem;
+
+  & a {
+    font-weight: var(--font-weight-medium);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

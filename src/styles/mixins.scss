@@ -1,0 +1,7 @@
+@mixin buttonBase() {
+  border-radius: var(--round-full);
+  padding: 0 1.25em;
+  line-height: 2.25;
+  font-size: 1rem;
+  font-weight: var(--font-weight-medium);
+}

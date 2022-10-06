@@ -1,0 +1,9 @@
+body {
+  font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+}
+
+*:focus,
+*:focus-visible,
+*:focus-within {
+  outline-color: var(--colors-accent-200);
+}

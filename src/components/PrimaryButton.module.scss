@@ -1,0 +1,13 @@
+@import "../styles/mixins.scss";
+
+.button {
+  @include buttonBase();
+
+  background-color: var(--colors-accent-500);
+  color: var(--colors-white);
+  transition: var(--transition-bg);
+
+  &:hover {
+    background-color: var(--colors-accent-600);
+  }
+}

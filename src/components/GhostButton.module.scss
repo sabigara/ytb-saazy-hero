@@ -1,0 +1,12 @@
+@import "../styles/mixins.scss";
+
+.button {
+  @include buttonBase();
+
+  padding: 0 0.5rem;
+  transition: var(--transition-bg);
+
+  &:hover {
+    background-color: var(--colors-gray-100);
+  }
+}
