@@ -1,15 +1,16 @@
-import React from "react";
-
 import styles from "./HeroSection.module.scss";
 import PrimaryButton from "./PrimaryButton";
 import Stats from "./Stats";
 import SubtleButton from "./SubtleButton";
+import { ReactComponent as ArrowRightSvg } from "../assets/arrow-right.svg";
 
 export default function HeroSection() {
   return (
     <section className={styles.container}>
       <div className={styles.left}>
-        <div>New feature has come</div>
+        <a href="#" className={styles.tagLink}>
+          New feature has come <ArrowRightSvg />
+        </a>
         <div className={styles.mainCopy}>
           <div>Grow your business</div>
           <div>with your customers</div>
