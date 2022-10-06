@@ -38,6 +38,7 @@ export default function HeroSection() {
               data: "20%",
             },
           ]}
+          className={styles.stats}
         />
       </div>
       <div className={styles.right}>

@@ -2,3 +2,30 @@
   display: flex;
   column-gap: 2rem;
 }
+
+.item {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  row-gap: 0.75rem;
+}
+
+.term {
+  color: var(--colors-gray-500);
+  font-size: var(--font-size-sm);
+}
+
+.data {
+  color: var(--colors-accent-600);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-3xl);
+}
+
+.divider {
+  height: 50%;
+  width: 8px;
+  border-color: var(--colors-gray-200);
+  border-top-width: 0;
+  border-left-width: 2px;
+  margin: auto 0;
+}

@@ -50,6 +50,10 @@
     display: flex;
     column-gap: 1.5rem;
   }
+
+  & .stats {
+    margin-top: 1rem;
+  }
 }
 
 .right {
