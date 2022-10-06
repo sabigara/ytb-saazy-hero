@@ -7,20 +7,26 @@
   display: flex;
   flex-direction: column;
   row-gap: 1.75rem;
+
+  & .mainCopy {
+    font-size: 3.375rem;
+    font-weight: var(--font-weight-extrabold);
+    line-height: 1.2;
+  }
+
+  & .subCopy {
+    max-width: 30rem;
+    color: var(--colors-gray-500);
+  }
+
+  & .ctas {
+    display: flex;
+    column-gap: 1.5rem;
+  }
 }
 
-.mainCopy {
-  font-size: 3.375rem;
-  font-weight: var(--font-weight-extrabold);
-  line-height: 1.2;
-}
-
-.subCopy {
-  max-width: 30rem;
-  color: var(--colors-gray-500);
-}
-
-.ctas {
-  display: flex;
-  column-gap: 1.5rem;
+.right {
+  & .heroImage {
+    width: 600px;
+  }
 }

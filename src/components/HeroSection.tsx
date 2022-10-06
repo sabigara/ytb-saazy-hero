@@ -39,6 +39,9 @@ export default function HeroSection() {
           ]}
         />
       </div>
+      <div className={styles.right}>
+        <img src="/hero-image.png" className={styles.heroImage} />
+      </div>
     </section>
   );
 }
